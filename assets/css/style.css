@@ -1,0 +1,17 @@
+.buttons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#buttons {
+    margin: 20px 10px;
+    padding: 10px;
+}
+button.btn {
+    margin: 10px 5px;
+}
+
+#images img {
+    height: 120px;
+    width: auto;
+    margin: 5px;
+}
