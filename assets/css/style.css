@@ -9,9 +9,20 @@
 button.btn {
     margin: 10px 5px;
 }
-
-#images img {
-    height: 120px;
+.card {
+    float: left;
+    margin: 5px;
+    max-width: 400px;
+}
+.card img {
+    height: 140px;
     width: auto;
+}
+.card-body {
+    font-size: smaller;
+    padding: 0px;
+}
+.card-text {
     margin: 5px;
 }
+
