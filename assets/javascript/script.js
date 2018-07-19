@@ -25,7 +25,7 @@ create_buttons();
 
 function getAnimalGifs(animalName) {
 
-    var queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + animalName + "&api_key=QMJHQpZvW4PuvNmC9rJ5adhY2DgktK5b&limit=10";
+    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + animalName + "&api_key=QMJHQpZvW4PuvNmC9rJ5adhY2DgktK5b&limit=10";
 
     $.ajax({
         url: queryUrl,
@@ -46,7 +46,7 @@ $("#addAnimal").on("click", function (event) {
 $("#showExtra10").on("click", function (event) {
     offset = offset+10;
     var currentAnimal = sessionStorage.getItem("currentAnimal");
-    var queryUrl = "http://api.giphy.com/v1/gifs/search?q=" + currentAnimal + "&api_key=QMJHQpZvW4PuvNmC9rJ5adhY2DgktK5b&limit=10&offset=" + offset;
+    var queryUrl = "https://api.giphy.com/v1/gifs/search?q=" + currentAnimal + "&api_key=QMJHQpZvW4PuvNmC9rJ5adhY2DgktK5b&limit=10&offset=" + offset;
 
     $.ajax({
         url: queryUrl,
